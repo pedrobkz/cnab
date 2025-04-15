@@ -1,0 +1,51 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  padding: 2rem;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h4 {
+    margin-top: 0;
+    font-weight: normal;
+  }
+}
+
+.button {
+   height: 40px;
+   padding: 0.5rem 1rem;
+   border: none;
+   border-radius: 0.5rem;
+   width: 100%;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+   font-weight: 600;
+   background-color: #ec4899;
+   color: white;
+}
+
+.button:disabled {
+  background-color: #f9a8d4;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.button:hover {
+  background-color: #db2777;
+}
